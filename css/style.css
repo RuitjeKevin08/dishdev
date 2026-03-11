@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro:wght@400;700&family=Taprom&display=swap');
+h1{
+    font-family: "Taprom", system-ui;
+}
+p{
+    font-family: "Tai Heritage Pro", serif;
+}
 /* mobile */
 @media (max-width: 450px){
 body {
@@ -13,7 +21,6 @@ body {
 /* landscape tablet + desktop */
 @media (min-width: 992px){
 body {
-    background-color:#FAF5E2;
     margin:0;
     padding:0px;
 }
@@ -30,31 +37,61 @@ article > img {
     height:8vw;
 }
 .nav-btn{
+    font-family: "Taprom", system-ui;
     background-color:#516659;
     margin:0px;
     padding:20px 30px;
-    font-size:1.4vw;
+    font-size:1.8vw;
     border-radius:15px;
     text-decoration:none;
     color:white;
     font-weight:500;
     cursor:pointer;
 }
-
+.footer {
+    background-color:#000000;
+    color:#FFFFFF;
+    display:flex;
+    align-items:center;
+    padding:10px 20px;
+    justify-content:space-around;
+    height: 6vw;
+}
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 10vw 50vw 10vw;
-    grid-template-areas:
-    "wit rood wit";
+    grid-template-areas: "wit rood wit";
+    margin:0;
 }
-.wit {
-    grid-area: wit;
+.links {
     background-color: #FAF5E2;
+    justify-content:center;
 }
-.rood {
-    grid-area: rood;
+.midden {
     background-color: #C55A40;
+    justify-content:center;
+}
+.rechts {
+    background-color: #FAF5E2;
+    justify-content:center;
+}
+.rookworstfoto {
+    height: 40vh;
+    margin-top:3vw;
+    margin-left:2.75vw;
+}
+.links-h1 {
+    margin-left: 8.75vw;
+}
+.links-p {
+    margin-left:2vw;
+    margin-right:2vw;
+}
+.stamppotfoto {
+    margin-top: 3vw;
+    width: 30vw;
+    height:auto;
+    margin-left:1.5vw;
 }
