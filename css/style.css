@@ -14,5 +14,47 @@ body {
 @media (min-width: 992px){
 body {
     background-color:#FAF5E2;
+    margin:0;
+    padding:0px;
 }
+.navbar{
+    background-color:#799785;
+    display:flex;
+    align-items:center;
+    padding:10px 20px;
+    justify-content:space-around;
+    height: 8vw;
+}
+
+article > img {
+    height:8vw;
+}
+.nav-btn{
+    background-color:#516659;
+    margin:0px;
+    padding:20px 30px;
+    font-size:1.4vw;
+    border-radius:15px;
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+    cursor:pointer;
+}
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 10vw 50vw 10vw;
+    grid-template-areas:
+    "wit rood wit";
+}
+.wit {
+    grid-area: wit;
+    background-color: #FAF5E2;
+}
+.rood {
+    grid-area: rood;
+    background-color: #C55A40;
 }
