@@ -10,6 +10,40 @@ p{
 @media (max-width: 450px){
 body {
     background-color:#FAF5E2;
+    margin:0;
+    padding:0;
+}
+.navbar, .footer {
+    display: none;
+}
+.logom>img {
+    width:auto;
+    height:13vh;
+    margin-left:2vw;
+    margin-top:1vh;
+
+}
+.mobile-navbar {
+    background-color: #799785;
+    height:15vh;
+    display:flex;
+}
+.hamburger>img {
+    height:8vh;
+    width:flex;
+    margin-left:2vw;
+    margin-top:3.5vh;
+}
+.h1m {
+    font-size:4vh;
+    margin-left:8vw;
+    margin-right:8vw;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "boven" "midden" "onder";
+    margin:0;
 }
 }
 /* tablet portrait */
@@ -33,7 +67,7 @@ body {
     align-items:center;
     padding:10px 20px;
     justify-content:space-around;
-    height: 8vw;
+    height: 8vh;
 }
 
 article > img {
@@ -60,7 +94,9 @@ article > img {
     justify-content:space-around;
     height: 6vw;
 }
-.container {
+
+}
+/* .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "wit rood wit";
@@ -99,5 +135,4 @@ article > img {
 .footertext {
     font-family: "Taprom";
     font-size:1.3vw;
-}
-}
+} */
