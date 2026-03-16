@@ -30,11 +30,12 @@ body {
 }
 .hamburger>img {
     height:8vh;
-    width:flex;
+    width:auto;
     margin-left:2vw;
     margin-top:3.5vh;
+    cursor: pointer;
 }
-.h1m {
+.h1nav {
     font-size:4vh;
     margin-left:8vw;
     margin-right:8vw;
@@ -44,6 +45,10 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "boven" "midden" "onder";
     margin:0;
+}
+.boven {
+    background-color: #FAF5E2;
+    justify-content:center;
 }
 }
 /* tablet portrait */
@@ -58,14 +63,13 @@ body {
 /* landscape tablet + desktop */
 @media (min-width: 992px){
 body {
-    margin:0;
+    margin:0px;
     padding:0px;
 }
 .navbar{
     background-color:#799785;
     display:flex;
     align-items:center;
-    padding:10px 20px;
     justify-content:space-around;
     height: 8vh;
 }
@@ -78,7 +82,7 @@ article > img {
     background-color:#516659;
     margin:0px;
     padding:20px 30px;
-    font-size:1.8vw;
+    font-size:1.7vw;
     border-radius:15px;
     text-decoration:none;
     color:white;
