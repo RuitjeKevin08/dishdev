@@ -9,7 +9,6 @@ p{
 /* mobile */
 @media (max-width: 450px){
 body {
-    background-color:#FAF5E2;
     margin:0;
     padding:0;
 }
@@ -42,13 +41,28 @@ body {
 }
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "boven" "midden" "onder";
-    margin:0;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "boven"
+        "midden"
+        "onder";
+    margin: 0;
+}
+.m_home_1>img {
+    width: 85vw;
 }
 .boven {
+    grid-area: boven;
     background-color: #FAF5E2;
-    justify-content:center;
+    justify-content: center;
+}
+.midden {
+    grid-area: midden;
+    background-color:  #C55A40;
+}
+.onder {
+    grid-area: onder;
+    background-color: #FAF5E2;
 }
 }
 /* tablet portrait */
