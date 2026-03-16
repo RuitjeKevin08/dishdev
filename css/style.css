@@ -30,11 +30,12 @@ body {
 }
 .hamburger>img {
     height:8vh;
-    width:flex;
+    width:auto;
     margin-left:2vw;
     margin-top:3.5vh;
+    cursor: pointer;
 }
-.h1m {
+.h1nav {
     font-size:4vh;
     margin-left:8vw;
     margin-right:8vw;
@@ -44,6 +45,10 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "boven" "midden" "onder";
     margin:0;
+}
+.boven {
+    background-color: #FAF5E2;
+    justify-content:center;
 }
 }
 /* tablet portrait */
