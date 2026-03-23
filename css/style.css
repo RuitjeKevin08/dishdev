@@ -27,26 +27,25 @@ body {
 .logom>img {
     width:auto;
     height:13vh;
-    margin-left:2vw;
-    margin-top:1vh;
+
 
 }
 .mobile-navbar {
     background-color: var(--main-color);
     height:15vh;
     display:flex;
+    align-items:center;
+    justify-content:space-between;
 }
 .hamburger>img {
     height:8vh;
     width:auto;
     margin-left:2vw;
-    margin-top:3.5vh;
     cursor: pointer;
 }
 .h1nav {
     font-size:4vh;
-    margin-left:8vw;
-    margin-right:8vw;
+    align-items:center;
 }
 .container {
     display: grid;
@@ -66,10 +65,10 @@ body {
     background-color: var(--background-color);
     justify-content:center;
 }
-.fotom_boven {
-    height: 40vh;
-    margin-top:3vw;
-    margin-left:2.75vw;
+.fotom_boven > img{
+    width: 80vw;
+    margin-top:6vw;
+    margin-left:5vw;
 }
 }
 /* tablet portrait */
