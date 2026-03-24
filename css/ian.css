@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro:wght@400;700&family=Taprom&display=swap');
+
+:root {
+    --main-color:#799785;
+    --header-color:#516659;
+    --secondary-color:#C55A40;
+    --background-color:#FAF5E2;
+}
+
+* {
+    font-size: 3vh;
+    font-family: "Tai Heritage Pro", system-ui;
+}
+h1 {
+    font-size: 8vh;
+    font-family: "Taprom", "system-ui";
+}
+
+body {
+    margin:0;
+    padding:0;
+    background-color: var(--background-color);
+}
+.navbar, .footer {
+    display: none;
+}
+.logom>img {
+    width:auto;
+    height:13vh;
+}
+.mobile-navbar {
+    background-color: var(--main-color);
+    height:15vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.hamburger>img {
+    height:8vh;
+    width:auto;
+    margin-left:2vw;
+    cursor: pointer;
+}
+.h1nav {
+    font-size:4vh;
+    align-items:center;
+}
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "boven" "midden" "onder";
+    margin:0;
+}
+.boven {
+    background-color: var(--background-color);
+    justify-content:center;
+}
+.midden {
+    background-color: var(--secondary-color);
+    justify-content:center;
+}
+.onder {
+    background-color: var(--background-color);
+    justify-content:center;
+}
+.fotom_boven > img{
+    width: 80vw;
+    margin-top:6vw;
+    margin-left:5vw;
+}
+#main-vacatures {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+#main-vacatures > img {
+    width: 90vw;
+    margin-top: 3vh;
+}
+#main-vacatures > form {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+#main-vacatures > form > textarea {
+    border-color: var(--secondary-color);
+    border-style: solid;
+    border-width: 3px;
+    width: 70vw;
+    height: 10vh;
+    border-radius: 15px;
+    resize: none;
+    padding: 1vh;
+}
+#main-vacatures > form > input {
+    margin: 2vh;
+    background-color: var(--secondary-color);
+    border: none;
+    color: white;
+    border-radius: 15px;
+    height: 6vh;
+    width: 30vw;
+}
+#main-vacatures > form > p {
+    text-align: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+/* tablet portrait */
+@media (min-width: 450.1px) and (max-width: 991.9px){
+.mobile-navbar {
+    display: none;
+}
+.grote-tekst {
+    display: none;
+}
+
+#main-vacatures > form > input {
+    width: 17vw;
+}
+
+}
+
+/* landscape tablet + desktop */
+@media (min-width: 992px){
+.mobile-navbar {
+    display: none;
+}
+body {
+    margin:0px;
+    padding:0px;
+}
+.navbar{
+    background-color:var(--main-color);
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding: 2vh;
+}
+
+article > img {
+    height:8vw;
+}
+.nav-btn{
+    font-family: "Taprom", system-ui;
+    background-color:var(--header-color);
+    margin:0px;
+    padding:20px 30px;
+    font-size:1.7vw;
+    border-radius:15px;
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+    cursor:pointer;
+}
+.footer {
+    background-color:var(--header-color);
+    color:var(--background-color);
+    display:flex;
+    align-items:center;
+    padding:10px 20px;
+    justify-content:space-around;
+    height: 6vw;
+}
+
+#main-vacatures > img {
+    width: 45vw;
+}
+#main-vacatures > form > textarea {
+    height: 16vh;
+    width: 50vw;
+}
+#main-vacatures > form > input {
+    width: 10vw;
+    height: 8vh;
+}
+
+}
