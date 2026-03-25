@@ -34,6 +34,7 @@ body {
     display:flex;
     align-items:center;
     justify-content:space-between;
+    padding:2vh;
 }
 .hamburger>img {
     height:8vh;
@@ -67,6 +68,18 @@ body {
     width: 80vw;
     margin-top:6vw;
     margin-left:5vw;
+}
+.nav-btn{
+    font-family: "Taprom", system-ui;
+    background-color:var(--header-color);
+    margin:0px;
+    padding:20px 30px;
+    font-size:1.7vw;
+    border-radius:15px;
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+    cursor:pointer;
 }
 #main-vacatures {
     display: flex;
@@ -106,6 +119,9 @@ body {
     margin-left: 2vw;
     margin-right: 2vw;
 }
+#tablet-header {
+    display: none;
+}
 
 /* tablet portrait */
 @media (min-width: 450.1px) and (max-width: 991.9px){
@@ -118,6 +134,26 @@ body {
 
 #main-vacatures > form > input {
     width: 17vw;
+}
+#tablet-header {
+    display: flex;
+}
+#tablet-nav{
+    background-color:var(--main-color);
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding: 1vh;
+    width: 100vw;
+}
+.logo {
+    height: 12vh;
+}
+.nav-btn {
+    font-size: 3vh;
+}
+#hamburger-foto {
+    width: 14vw;
 }
 
 }
@@ -142,18 +178,7 @@ body {
 article > img {
     height:8vw;
 }
-.nav-btn{
-    font-family: "Taprom", system-ui;
-    background-color:var(--header-color);
-    margin:0px;
-    padding:20px 30px;
-    font-size:1.7vw;
-    border-radius:15px;
-    text-decoration:none;
-    color:white;
-    font-weight:500;
-    cursor:pointer;
-}
+
 .footer {
     background-color:var(--header-color);
     color:var(--background-color);
@@ -174,6 +199,9 @@ article > img {
 #main-vacatures > form > input {
     width: 10vw;
     height: 8vh;
+}
+#tablet-header {
+    display: none;
 }
 
 }
