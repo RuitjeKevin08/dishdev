@@ -14,6 +14,11 @@ h1{
 p{
     font-family: "Tai Heritage Pro", serif;
 }
+footer{
+    background-color:var(--header-color);
+    color:var(--background-color);
+    display:flex;
+}
 /* mobile */
 @media (max-width: 450px){
 body {
@@ -64,14 +69,78 @@ body {
     background-color: var(--background-color);
     justify-content:center;
 }
-.fotom_boven > img{
+.fotom-boven {
+    display:flex;
+    justify-content:center;
+}
+.fotom-boven > img{
     width: 80vw;
     margin-top:6vw;
-    margin-left:5vw;
+    margin-bottom:3vw;
+    border-radius:5vw;
+}
+.h1m-boven {
+    font-size:8vw;
+    text-align:center;
+}
+.pm-boven {
+    text-align:center;
+    margin-left:3vw;
+    margin-right:3vw;
+}
+.fotom-midden {
+    display:flex;
+    justify-content:center;
+}
+.fotom-midden > img{
+    width: 80vw;
+    margin-top:6vw;
+    margin-bottom:3vw;
+    border-radius:5vw;
+}
+.h1m-midden {
+    font-size:8vw;
+    text-align:center;
+}
+.pm-midden {
+    text-align:center;
+    margin-left:3vw;
+    margin-right:3vw;
+}
+.fotom-onder {
+    display:flex;
+    justify-content:center;
+}
+.fotom-onder > img{
+    width: 80vw;
+    margin-top:6vw;
+    margin-bottom:3vw;
+    border-radius:5vw;
+}
+.h1m-onder {
+    font-size:8vw;
+    text-align:center;
+}
+.pm-onder {
+    text-align:center;
+    margin-left:3vw;
+    margin-right:3vw;
 }
 }
 /* tablet portrait */
 @media (min-width: 450.1px) and (max-width: 991.9px){
+.mobile-navbar {
+    display:none;
+}
+.boven {
+    display: none;
+}
+.midden {
+    display:none;
+}
+.onder {
+    display:none;
+}
 body {
     background-color: var(--background-color);
 }
@@ -81,6 +150,18 @@ body {
 }
 /* landscape tablet + desktop */
 @media (min-width: 992px){
+.mobile-navbar {
+    display: none;
+}
+.boven {
+    display: none;
+}
+.midden {
+    display:none;
+}
+.onder {
+    display:none;
+}
 body {
     margin:0px;
     padding:0px;
