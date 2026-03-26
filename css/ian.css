@@ -21,6 +21,9 @@ body {
     padding:0;
     background-color: var(--background-color);
 }
+main {
+    display: flex;
+}
 .navbar, .footer {
     display: none;
 }
@@ -36,7 +39,7 @@ body {
     justify-content:space-between;
     padding:2vh;
 }
-.hamburger>img {
+#hamburger-mobile>img {
     height:8vh;
     width:auto;
     margin-left:2vw;
@@ -68,18 +71,6 @@ body {
     width: 80vw;
     margin-top:6vw;
     margin-left:5vw;
-}
-.nav-btn{
-    font-family: "Taprom", system-ui;
-    background-color:var(--header-color);
-    margin:0px;
-    padding:20px 30px;
-    font-size:1.7vw;
-    border-radius:15px;
-    text-decoration:none;
-    color:white;
-    font-weight:500;
-    cursor:pointer;
 }
 #main-vacatures {
     display: flex;
@@ -122,6 +113,38 @@ body {
 #tablet-header {
     display: none;
 }
+/* css voor de hamburger die kevin over moet kopiëren */
+#mobile-popout {
+    display: none;
+    height: 85vh;
+    flex-direction: column;
+    align-items: center;
+}
+/* dit ook */   
+.nav-btn {
+    font-family: "Taprom", system-ui;
+    background-color:var(--header-color);
+    margin:0px;
+    padding:20px 30px;
+    font-size:1.7vw;
+    border-radius:15px;
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+    cursor:pointer;
+    font-size: 3vh;
+    margin: 3vh;
+}
+#tablet-popout {
+    display: none;
+}
+#header-tablet {
+    display: flex;
+    flex-direction: row;
+}
+#hamburger-foto {
+    height: 8vh;
+}
 
 /* tablet portrait */
 @media (min-width: 450.1px) and (max-width: 991.9px){
@@ -149,11 +172,28 @@ body {
 .logo {
     height: 12vh;
 }
-.nav-btn {
+.nav-btn{
+    font-family: "Taprom", system-ui;
+    background-color:var(--header-color);
+    margin:0px;
+    padding:20px 30px;
+    font-size:1.7vw;
+    border-radius:15px;
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+    cursor:pointer;
     font-size: 3vh;
+    margin: 1vh;
 }
-#hamburger-foto {
+#hamburger-foto-tablet {
     width: 14vw;
+}
+#tablet-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 }
@@ -188,6 +228,18 @@ article > img {
     justify-content:space-around;
     height: 6vw;
 }
+.nav-btn{
+    font-family: "Taprom", system-ui;
+    background-color:var(--header-color);
+    margin:0px;
+    padding:20px 30px;
+    font-size:1.7vw;
+    border-radius:15px;
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+    cursor:pointer;
+}
 
 #main-vacatures > img {
     width: 45vw;
@@ -199,9 +251,6 @@ article > img {
 #main-vacatures > form > input {
     width: 10vw;
     height: 8vh;
-}
-#tablet-header {
-    display: none;
 }
 
 }
