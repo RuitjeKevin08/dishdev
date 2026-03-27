@@ -145,6 +145,34 @@ main {
 #hamburger-foto {
     height: 8vh;
 }
+#reserveren-inhoud {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#reserveren-inhoud > h1 {
+    margin: 2vh;
+    justify-self: center;
+    align-self: center;
+}
+#reserveer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#reserveer-form > input {
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 1vh;
+    padding: 1vh;
+}
+.reserveren-img {
+    display: none;
+}
+#reserveren-main {
+    display: flex;
+    flex-direction: column;
+}
 
 /* tablet portrait */
 @media (min-width: 450.1px) and (max-width: 991.9px){
@@ -251,6 +279,18 @@ article > img {
 #main-vacatures > form > input {
     width: 10vw;
     height: 8vh;
+}
+.reserveren-img {
+    display: block;
+}
+#reserveren-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.reserveren-img {
+    width: 100%;
+    height: 80.93vh;
+    object-fit: cover;
 }
 
 }
