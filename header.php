@@ -4,7 +4,7 @@
         <a class="nav-btn" href="index.php">Homepagina</a>
         <a class="nav-btn" href="reserveren.php">Reserveren</a>
         <a class="nav-btn" href="lunch-en-diner.php">Lunch en diner</a>
-        <a class="nav-btn" href="openingstijden.php">Openingstijden</a>
+        <a class="nav-btn" href="tijden&loca.php">Openingstijden</a>
         <a class="nav-btn" href="vacatures.php">Vacatures</a>
     </nav>
 </header>

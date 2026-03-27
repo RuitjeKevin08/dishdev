@@ -15,6 +15,10 @@ h1 {
     font-size: 8vh;
     font-family: "Taprom", "system-ui";
 }
+h2 {
+    font-size: 5vh;
+    font-family: "Taprom", "system-ui";
+}
 
 body {
     margin:0;
@@ -173,7 +177,23 @@ main {
     display: flex;
     flex-direction: column;
 }
-
+#tijden-loca-main {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+#tijden-loca-main > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#tijden-loca-main > article > img {
+    width: 80vw;
+    margin: 3vh;
+    border-radius: 5vh;
+}
+#tijden , #tijden-vakantie {
+    background-color: var(--secondary-color);
+}
 /* tablet portrait */
 @media (min-width: 450.1px) and (max-width: 991.9px){
 .mobile-navbar {
@@ -221,6 +241,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+}
+#tablet-popout {
+    background-color: var(--main-color);
+    width: 100vw;
     justify-content: space-around;
 }
 
@@ -291,6 +316,13 @@ article > img {
     width: 100%;
     height: 80.93vh;
     object-fit: cover;
+}
+#tijden-loca-main {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#tijden-loca-main > article > img{
+    width: 90%;
+    height: auto;
 }
 
 }
