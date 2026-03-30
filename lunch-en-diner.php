@@ -24,6 +24,5 @@
     <article class="logom"><img src="img/logo.png" alt="logo"></article>
     </nav>
    </header>
-   <script src="script/script.js"></script>
 </body>
 </html>

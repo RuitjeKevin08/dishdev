@@ -15,4 +15,3 @@ function hamburgerFunc(){
     }
 }
 tabletHamburgerFoto.addEventListener('click', hamburgerFunc);
-console.log('kosooifosm');

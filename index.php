@@ -7,24 +7,7 @@
     <title>Home</title>
 </head>
 <body>
-
-    <header>
-    <nav class="navbar">
-    <article><img src="img/logo.png" alt="logo"></article>
-    <a class="nav-btn" href="index.html">Homepagina</a>
-    <a class="nav-btn" href="reserveren.html">Reserveren</a>
-    <a class="nav-btn" href="lunch-en-diner.html">Lunch en diner</a>
-    <a class="nav-btn" href="openingstijden.html">Openingstijden</a>
-    <a class="nav-btn" href="vacatures.html">Vacatures</a>
-        </nav>
-   </header>
-   <header id="mobile-header" class="mobile-header">
-    <nav id="mobile-navbar" class="mobile-navbar">
-    <article class="hamburger"><img id="hamburger-foto" src="img/menutje.png" alt="menu"></article>
-    <h1 class="h1nav">Oma's Kost</h1>
-    <article class="logom"><img src="img/logo.png" alt="logo"></article>
-    </nav>
-   </header>
+    <?php include 'header.php'; ?>
    <section id="images" class="container">
     <article class="boven">
         <article class="fotom-boven"><img src="img/rookworst.png"></article>
@@ -42,16 +25,6 @@
         <p class="pm-onder">Bij Oma's Kost staan ook pannenkoeken op het menu. Ze worden vers gebakken en kunnen zowel zoet als hartig worden besteld. Denk aan pannenkoeken met stroop of poedersuiker, maar ook met spek of kaas. Het is een eenvoudig gerecht dat bij veel gasten in de smaak valt.</p>
     </article>
    </section>
-   <footer>
-    <nav class="mobilefooter">
-        <p class="mobilefootertext">Coloradoweg 35 Rotterdam</p>
-        <p class="mobilefootertext">+31 6 19284903</p>
-        <p class="mobilefootertext">omas-kost@gmail.com</p>
-    </nav>
-    <nav class="deskfooter">
-        <p class="deskfootertext"> Coloradoweg 35 Rotterdam   +31 6 19284903   omas-kost@gmail.com   Openingstijden:    Ma-Vr: 10:00-22:00   Za-Zo: 16:00-21:00   KvK: 06 676767 | BTW: 06 696969   © 2026 Oma's Kost - Alle rechten voorbehouden.   Algemene voorwaarden | Privacyverklaring </p>
-    </nav>
-   </footer>
-   <script src="script/script.js"></script>
+    <?php include 'footer.php' ?>
 </body>
 </html>
