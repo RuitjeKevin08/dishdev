@@ -12,25 +12,32 @@ h1{
 p{
     font-family: "Tai Heritage Pro", serif;
 }
-footer{
-    background-color:var(--header-color);
-    color:var(--background-color);
-    display:flex;
+footer {
+    background-color: var(--header-color);
+    color: var(--background-color);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+footer > p {
+    margin: 0px;
+    padding: 2vh;
+}
+.navbar {
+    display: none;
 }
 /* mobile */
-@media (max-width: 450px){
+
+
 body {
     margin:0;
     padding:0;
 }
-.navbar, .footer {
-    display: none;
-}
+
 .logom>img {
     width:auto;
     height:13vh;
-
-
 }
 .mobile-navbar {
     background-color: var(--main-color);
@@ -124,26 +131,73 @@ body {
     margin-left:3vw;
     margin-right:3vw;
 }
+#tablet-header {
+    display:none;
 }
+#mobile-popout {
+    display:none;
+}
+#footer-tablet-desktop {
+    display: none;
+}
+
+
+
 /* tablet portrait */
 @media (min-width: 450.1px) and (max-width: 991.9px){
 .mobile-navbar {
-    display:none;
-}
-.boven {
     display: none;
-}
-.midden {
-    display:none;
-}
-.onder {
-    display:none;
-}
-body {
-    background-color: var(--background-color);
 }
 .grote-tekst {
     display: none;
+}
+#tablet-header {
+    display: flex;
+}
+#tablet-nav{
+    background-color:var(--main-color);
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding: 1vh;
+    width: 100vw;
+}
+.logo {
+    height: 12vh;
+}
+.nav-btn{
+    font-family: "Taprom", system-ui;
+    background-color:var(--header-color);
+    margin:0px;
+    padding:20px 30px;
+    font-size:1.7vw;
+    border-radius:15px;
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+    cursor:pointer;
+    font-size: 3vh;
+    margin: 1vh;
+}
+#hamburger-foto-tablet {
+    width: 14vw;
+}
+#tablet-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#tablet-popout {
+    background-color: var(--main-color);
+    width: 100vw;
+    justify-content: space-around;
+}
+footer {
+    display: none;
+}
+#footer-tablet-desktop {
+    display: block;
 }
 }
 /* landscape tablet + desktop */
