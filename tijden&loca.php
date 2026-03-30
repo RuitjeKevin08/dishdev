@@ -13,13 +13,15 @@
         <article id="tijden">
             <img src="img/pannenkoek.png">
             <h2>Openingstijden</h2>
-            <p>Maandag - 11:00 t/m 21:00</p>
-            <p>Dinsdag - 11:00 t/m 21:00</p>
-            <p>Woensdag - 11:00 t/m 21:00</p>
-            <p>Donderdag - 11:00 t/m 21:00</p>
-            <p>Vrijdag - 11:00 t/m 22:30</p>
-            <p>Zaterdag - 11:00 t/m 22:30</p>
-            <p>Zondag - 11:00 t/m 21:00</p><br>
+            <p>
+                Maandag - 11:00 t/m 21:00<br>
+                Dinsdag - 11:00 t/m 21:00<br>
+                Woensdag - 11:00 t/m 21:00<br>
+                Donderdag - 11:00 t/m 21:00<br>
+                Vrijdag - 11:00 t/m 22:30<br>
+                Zaterdag - 11:00 t/m 22:30<br>
+                Zondag - 11:00 t/m 21:00<br>
+            </p><br>
         </article>
         <article id="locatie">
             <h2>Locatie</h2>
@@ -34,13 +36,15 @@
         <article id="tijden-vakantie">
             <img src="img/stamppot.png">
             <h2>Vakantie openingstijden</h2>
-            <p>Maandag - 11:00 t/m 23:00</p>
-            <p>Dinsdag - 11:00 t/m 23:00</p>
-            <p>Woensdag - 11:00 t/m 23:00</p>
-            <p>Donderdag - 11:00 t/m 23:00</p>
-            <p>Vrijdag - 11:00 t/m 23:30</p>
-            <p>Zaterdag - 10:00 t/m 23:30</p>
-            <p>Zondag - 10:00 t/m 23:00</p>
+            <p>
+                Maandag - 11:00 t/m 23:00<br>
+                Dinsdag - 11:00 t/m 23:00<br>
+                Woensdag - 11:00 t/m 23:00<br>
+                Donderdag - 11:00 t/m 23:00<br>
+                Vrijdag - 11:00 t/m 23:30<br>
+                Zaterdag - 10:00 t/m 23:30<br>
+                Zondag - 10:00 t/m 23:00
+            </p><br>
         </article>
     </main>
     <?php include 'footer.php'; ?>
