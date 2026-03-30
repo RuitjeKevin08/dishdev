@@ -1,6 +1,7 @@
 const popout=document.querySelector('#mobile-popout');
 const main = document.querySelector('main');
 const hamburgerFoto = document.querySelector('#hamburger-foto');
+const bodyDefault = window.getComputedStyle(main).display;
 function hamburgerFunc(){
     let navDisplay = window.getComputedStyle(popout).display;
     console.log('hamburger:');
@@ -14,7 +15,7 @@ function hamburgerFunc(){
         console.log('dicht');
         popout.style.display = 'none';
         hamburgerFoto.src = 'img/menutje.png';
-        main.style.display = 'flex';
+        main.style.display = bodyDefault;
     }
 }
 hamburgerFoto.addEventListener('click', hamburgerFunc);

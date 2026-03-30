@@ -43,5 +43,6 @@
             <p>Zondag - 10:00 t/m 23:00</p>
         </article>
     </main>
+    <?php include 'footer.php'; ?>
 </body>
 </html>

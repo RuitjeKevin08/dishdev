@@ -24,5 +24,6 @@
         </article>
         <img class="reserveren-img" src="img/restaurant2.png" id="reserveren-img-rechts">
     </main>
+    <?php include 'footer.php'; ?>
 </body>
 </html>

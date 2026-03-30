@@ -35,5 +35,6 @@
             <input type="submit" value="verstuur">
         </form>
     </main>
+    <?php include 'footer.php'; ?>
 </body>
 </html>
