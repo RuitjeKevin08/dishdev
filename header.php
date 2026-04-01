@@ -37,3 +37,24 @@
     </div>
     <script src="rel/hamburger-tablet.js" defer></script>
 </header>
+<article id="inclu-menu-dicht">
+    <img id="inclu-menu-dicht-knop" src="img/pijl-rechts.png">
+</article>
+<article id="inclu-menu-open">
+    <section>
+        <section>
+            <p>donkere modus</p>
+            <img id="dark-mode-switch" src="img/switch-off.png" alt="donker thema schakelaar">
+        </section>
+        <section>
+            <p>grote tekst</p>
+            <img id="bold-text-switch" src="img/switch-off.png" alt="dikke tekst schakelaar">
+        </section>
+        <section>
+            <p>hoog contrast</p>
+            <img id="contrast-switch" src="img/switch-off.png" alt="hoog contrast schakelaar">
+        </section>
+    </section>
+    <img id="inclu-menu-open-knop" src="img/pijl-links.png">
+</article>
+<script src="rel/inclu-menu.js" defer></script>
