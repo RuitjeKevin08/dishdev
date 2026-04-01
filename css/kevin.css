@@ -33,6 +33,7 @@ footer > p {
 body {
     margin:0;
     padding:0;
+    background-color: var(--background-color);
 }
 
 .logom>img {
@@ -56,7 +57,7 @@ body {
     font-size:4vh;
     align-items:center;
 }
-.container {
+.m_home_container {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "boven" "midden" "onder";
@@ -143,6 +144,28 @@ body {
 #tablet-popout {
     display: none;
 }
+.boven_l, .boven_m, .boven_r, .midden_l, .midden_m, .midden_r, .onder_l, .onder_m, .onder_r {
+    display: none;
+}
+.h1m-lunch {
+    text-align:center;
+    font-size:8vw;
+}
+.pm-lunch {
+    margin-left:5vw;
+    font-size:4vw;
+}
+.pm-prijs {
+    margin-right:5vw;
+    font-size:4vw;
+}
+
+.m-lunch-container {
+    display: grid;
+    grid-template-columns: 80vw 20vw;
+    grid-template-areas: "m-lunch-links"
+    "m-lunch-rechts";
+}
 
 
 
@@ -154,8 +177,17 @@ body {
 .grote-tekst {
     display: none;
 }
+.boven, .midden, .onder {
+    display: none;
+}
+.m-lunch-container, .h1m-lunch {
+    display:none;
+}
 #tablet-header {
     display: flex;
+}
+.boven_l, .boven_m, .boven_r, .midden_l, .midden_m, .midden_r, .onder_l, .onder_m, .onder_r {
+    display: block;
 }
 #tablet-nav{
     background-color:var(--main-color);
@@ -203,6 +235,44 @@ footer {
     display: block;
 }
 }
+.t-lunch-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "boven_l" "boven_m" "boven_r"
+        "midden_l" "midden_m" "midden_r"
+        "onder_l" "onder_m" "onder_r";
+    margin:0;
+}
+.boven_l, .boven_m, .boven_r {
+    background-color: var(--background-color);
+    justify-content:center;
+}
+.midden_l, .midden_m, .midden_r {
+    background-color: var(--secondary-color);
+    justify-content:center;
+}
+.onder_l, .onder_m, .onder_r {
+    background-color: var(--background-color);
+    justify-content:center;
+}
+.boven_l > h1, .boven_m > h1, .boven_r > h1, .midden_l > h1, .midden_m > h1, .midden_r > h1, .onder_l > h1, .onder_m > h1, .onder_r > h1 {
+    font-size:4vw;
+    text-align:center;
+    margin-top:0;
+    margin-bottom:0;
+}
+.boven_l > p, .boven_m > p, .boven_r > p, .midden_l > p, .midden_m > p, .midden_r > p, .onder_l > p, .onder_m > p, .onder_r > p {
+    margin-top:0;
+    margin-bottom:0;
+    margin-right:5vw;
+    text-align:right;
+    font-size:2vw;
+}
+
+
+
+
 /* landscape tablet + desktop */
 @media (min-width: 992px){
 .mobile-navbar {
