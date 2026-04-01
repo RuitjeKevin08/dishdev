@@ -5,11 +5,15 @@
     --header-color:#516659;
     --secondary-color:#C55A40;
     --background-color:#FAF5E2;
+    --text-color: black;
+    --font-weight: normal;
 }
 
 * {
     font-size: 3vh;
     font-family: "Tai Heritage Pro", system-ui;
+    color: var(--text-color);
+    font-weight: var(--font-weight);
 }
 h1 {
     font-size: 8vh;
@@ -94,14 +98,12 @@ main {
 #tablet-header {
     display: none;
 }
-/* css voor de hamburger die kevin over moet kopiëren */
 #mobile-popout {
     display: none;
     height: 85vh;
     flex-direction: column;
     align-items: center;
-}
-/* dit ook */   
+} 
 .nav-btn, .desk-nav-btn {
     font-family: "Taprom", system-ui;
     background-color:var(--header-color);
@@ -175,8 +177,8 @@ main {
     background-color: var(--secondary-color);
 }
 footer {
-    background-color: var(--header-color);
-    color: var(--background-color);
+    background-color: var(--main-color);
+    color: var(--text-color);
     padding: 0px;
     margin: 0px;
     display: flex;
@@ -188,6 +190,57 @@ footer > p {
 }
 #footer-tablet-desktop {
     display: none;
+}
+#inclu-menu-dicht {
+    position: fixed;
+    top: 30vh;
+    border-radius: 13px;
+    background-color: var(--main-color);
+    height: 50px;
+    width: 50px;
+    display: flex;
+}
+#inclu-menu-dicht > img {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+#inclu-menu-open {
+    background-color: var(--main-color);
+    position: fixed;
+    top: 30vh;
+    width: 330px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-around;
+    display: none;
+}
+#inclu-menu-open > img, #inclu-menu-open > section > section > img{
+    width: 70px;
+    height: 100%;
+    margin: 10px;
+}
+#inclu-menu-open > section > section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#inclu-menu-open > img {
+    height: 70px;
+}
+#inclu-menu-open > section > section > button {
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+}
+#inclu-menu-dicht-knop, #inclu-menu-open-knop {
+    background-color: var(--main-color);
+}
+#inclu-menu-open > section > section > p {
+    padding-left: 5px;
 }
 
 /* tablet portrait */
