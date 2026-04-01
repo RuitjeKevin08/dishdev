@@ -102,7 +102,7 @@ main {
     align-items: center;
 }
 /* dit ook */   
-.nav-btn {
+.nav-btn, .desk-nav-btn {
     font-family: "Taprom", system-ui;
     background-color:var(--header-color);
     margin:0px;
