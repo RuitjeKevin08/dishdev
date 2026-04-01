@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php include 'header.php'; ?>
-   <section id="images" class="container">
+   <section id="images" class="m-home-container">
     <article class="boven">
         <article class="fotom-boven"><img src="img/rookworst.png"></article>
         <h1 class="h1m-boven">Beste stamppot</h1>
