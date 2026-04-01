@@ -140,6 +140,9 @@ body {
 #footer-tablet-desktop {
     display: none;
 }
+#tablet-popout {
+    display: none;
+}
 
 
 
