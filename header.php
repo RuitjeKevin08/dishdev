@@ -1,11 +1,11 @@
 <header>
     <nav class="navbar">
         <article><img src="img/logo.png" class="logo"></article>
-        <a class="desk-nav-btn" href="index.php">Homepagina</a>
-        <a class="desk-nav-btn" href="reserveren.php">Reserveren</a>
-        <a class="desk-nav-btn" href="lunch-en-diner.php">Lunch en diner</a>
-        <a class="desk-nav-btn" href="tijden&loca.php">Openingstijden</a>
-        <a class="desk-nav-btn" href="vacatures.php">Vacatures</a>
+        <a class="nav-btn" href="index.php">Homepagina</a>
+        <a class="nav-btn" href="reserveren.php">Reserveren</a>
+        <a class="nav-btn" href="lunch-en-diner.php">Lunch en diner</a>
+        <a class="nav-btn" href="tijden&loca.php">Openingstijden</a>
+        <a class="nav-btn" href="vacatures.php">Vacatures</a>
     </nav>
 </header>
 <header id="mobile-header" class="mobile-header">
