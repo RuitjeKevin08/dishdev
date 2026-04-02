@@ -25,6 +25,6 @@
         <p class="pm-onder">Bij Oma's Kost staan ook pannenkoeken op het menu. Ze worden vers gebakken en kunnen zowel zoet als hartig worden besteld. Denk aan pannenkoeken met stroop of poedersuiker, maar ook met spek of kaas. Het is een eenvoudig gerecht dat bij veel gasten in de smaak valt.</p>
     </article>
    </section>
-    <?php include 'footer.php' ?>
+    <?php include 'footer.php'; ?>
 </body>
 </html>

@@ -308,6 +308,115 @@
             <p>Rosé:  €6,50</p>
         </article>
     </section>
-    <?php include 'footer.php' ?>
+    <section class="d-lunch-container-b">
+        <article class="boven-1">
+            <img class="img-lunch-1" src="img/rookworst.png" alt="Boerenkool met rookworst">
+        </article>
+        <article class="boven-2">
+            <h1>Lunch (tot 4 uur)</h1>
+            <p>Uitsmijter ham/kaas:  €9,50</p>
+            <p>Tosti ham/kaas:  €5,50</p>
+            <p>Broodje kroket:  €4,50</p>
+            <p>Broodje gehaktbal:  €6,50</p>
+            <p>Boerenomelet:  €8,00</p>
+            <p>Salade kip:  €10,50</p>
+            <p>Salade geitenkaas:  €11,50</p>
+        </article>
+        <article class="boven-3">
+            <img class="img-lunch-2" src="img/ei.png" alt="Broodje ei met ham en kaas">
+        </article>
+        <article class="boven-4">
+            <h1>Pannenkoeken</h1>
+            <p>Naturel:  €8,00</p>
+            <p>Spek:  €9,50</p>
+            <p>Appel:  €9,50</p>
+            <p>Kaas:  €9,50</p>
+            <p>Volkoren:  €9,50</p>
+            <p>Speciaal:  €9,50</p>
+            <p>Bouw je eigen:  €10,50</p>
+        </article>
+        <article class="boven-5">
+            <img class="img-lunch-3" src="img/pannenkoek2.png" alt="Pannenkoek met stroop">
+        </article>
+    </section>
+    <section class="d-lunch-container-mo">
+        <article class="midden-1">
+            <h1>Voorgerechten</h1>
+            <p>Tomatensoep:  €9,50</p>
+            <p>Erwtensoep:  €8,50</p>
+            <p>Groentesoep:  €6,00</p>
+            <p>Carpaccio:  €5,75</p>
+            <p>Stokbrood kruidenboter:  €4,25</p>
+            <p>Gehaktbal in jus:  €4,25</p>
+            <p>Kaaskroketten:  €4,25</p>
+        </article>
+        <article class="midden-2">
+            <img class="img-lunch-4" src="img/erwtensoep.png" alt="Erwtensoep">
+        </article>
+        <article class="midden-3">
+            <h1>Hoofdgerechten</h1>
+            <p>Boerenkool met worst:  €9,50</p>
+            <p>Hutspot met klapstuk:  €8,50</p>
+            <p>Zuurkool met spek:  €6,00</p>
+            <p>Draadjesvlees:  €5,75</p>
+            <p>Gehaktballen met jus:  €4,25</p>
+            <p>Kipfilet met groente:  €4,25</p>
+            <p>Schnitzel met friet:  €4,25</p>
+        </article>
+        <article class="midden-4">
+            <h1>Hoofdgerechten</h1>
+            <p>Stoofpot van de chef:  €9,50</p>
+            <p>Pannenkoek speciaal:  €8,50</p>
+            <p>Vis van de dag:  €6,00</p>
+            <p>Riblap met jus:  €5,75</p>
+            <p>Sudderlap met rode kool:  €4,25</p>
+            <p>Stamppot trio:  €4,25</p>
+            <p>Vegetarische stamppot:  €4,25</p>
+        </article>
+        <article class="midden-5">
+            <img class="img-lunch-5" src="img/draadjesvlees.png" alt="Draadjesvlees met saus">
+        </article>
+        <article class="midden-6">
+            <h1>Desserts</h1>
+            <p>Sorbetijs:  €9,50</p>
+            <p>Chocolademousse:  €8,50</p>
+            <p>Churros:  €6,00</p>
+            <p>Banana split:  €5,75</p>
+            <p>Appeltaart met ijs:  €4,25</p>
+            <p>Bananencake:  €4,25</p>
+            <p>Bolletjes kiezen:  €4,25</p>
+        </article>
+        <article class="onder-1">
+            <h1>Koude dranken</h1>
+            <p>Spa rood/blauw:  €9,50</p>
+            <p>Fristi, chocomel:  €8,50</p>
+            <p>Fanta:  €6,00</p>
+            <p>Coca cola, Pepsi:  €5,75</p>
+            <p>7 up:  €4,25</p>
+        </article>
+        <article class="onder-2">
+            <img class="img-lunch-6" src="img/fristi.png" alt="Flesje fristi">
+        </article>
+        <article class="onder-3">
+            <h1>Warme dranken</h1>
+            <p>Warme chocolademelk:  €9,50</p>
+            <p>Thee:  €8,50</p>
+            <p>Koffie:  €6,00</p>
+            <p>Espresso:  €6,00</p>
+            <p>Latte macchiato:  €6,50</p>
+        </article>
+        <article class="onder-4">
+            <img class="img-lunch-7" src="img/koffie.png" alt="Kopje koffie">
+        </article>
+        <article class="onder-5">
+            <h1>Alcoholisch</h1>
+            <p>Tapbier:  €9,50</p>
+            <p>Speciaalbier:  €8,50</p>
+            <p>Witte wijn:  €6,00</p>
+            <p>Rode wijn:  €6,00</p>
+            <p>Rosé:  €6,50</p>
+        </article>
+    </section>
+    <?php include 'footer.php'; ?>
 </body>
 </html>
