@@ -48,8 +48,11 @@ footer > p {
     margin: 3vh;
 }
 /* mobile */
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 body {
     margin:0;
     padding:0;
@@ -153,6 +156,7 @@ body {
     margin-left:3vw;
     margin-right:3vw;
 }
+<<<<<<< Updated upstream
 #tablet-header {
     display:none;
 }
@@ -256,6 +260,8 @@ body {
 
 
 
+=======
+>>>>>>> Stashed changes
 /* tablet portrait */
 @media (min-width: 450.1px) and (max-width: 991.9px){
 .mobile-navbar {
