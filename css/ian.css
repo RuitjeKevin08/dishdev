@@ -187,6 +187,7 @@ footer {
 footer > p {
     margin: 0px;
     padding: 2vh;
+    font-size: 3vh;
 }
 #footer-tablet-desktop {
     display: none;
