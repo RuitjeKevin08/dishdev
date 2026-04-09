@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php include 'header.php'; ?>
+<main>
    <section id="images" class="m-home-container">
         <article class="boven">
         <article class="fotom-boven"><img src="img/rookworst.png"></article>
@@ -62,6 +63,7 @@
             <p class="d-p">Oma's kost is gemaakt omdat we wilden dat mensen dingen konden eten die ze vroeger altijd bij oma te eten kregen. Dit stukje nostalgie willen wij graag vastleggen door middel van ons eten.</p>
         </article>
     </section>
+</main>
     <?php include 'footer.php'; ?>
 </body>
 </html>

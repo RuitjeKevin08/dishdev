@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php include 'header.php'; ?>
+<main>
     <h1 class="h1m-lunch">Voorgerecht</h1>
     <section class="m-lunch-container">
         <article class="m-lunch-links">
@@ -417,6 +418,7 @@
             <p>Rosé:  €6,50</p>
         </article>
     </section>
+</main>
     <?php include 'footer.php'; ?>
 </body>
 </html>

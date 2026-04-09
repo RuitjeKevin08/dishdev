@@ -173,7 +173,7 @@ main {
     margin: 3vh;
     border-radius: 5vh;
 }
-#tijden , #tijden-vakantie {
+#locatie {
     background-color: var(--secondary-color);
 }
 footer {
